@@ -81,10 +81,11 @@ def tone_granted():
     beep(1320, 160)
 
 
+error_sound = None  # gets loaded in main()
+
 def tone_denied():
-    """Low buzz for access denied."""
-    beep(300, 250)
-    beep(220, 250)
+    if error_sound is not None and SOUND:
+        error_sound.play() 
 
 
 def tone_locked():
@@ -142,6 +143,10 @@ def read_serial_feedback(ser):
 
 
 def main():
+    global error_sound
+    pygame.mixer.init()
+    error_sound = pygame.mixer.Sound("error.wav")
+
     if not AUDIO:
         print("Note: winsound not available (non-Windows) -- running without audio.")
 
