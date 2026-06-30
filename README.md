@@ -7,12 +7,12 @@ L1 to enter the password, R1 to relock it.
 error.wav is the SYFM scene taken from the movie Bronson. All credits to them.
 components used for hardware:
 ps4 controller
-16*2 LCD
-potentiometer for LCD
-Arduino UNO
-9V 2A battery
-switch for turning fan on/off manually
-breadboard
-jumper wires
-
-ill be giving the wiring diagram soon. Stay tuned
+,16*2 LCD
+,potentiometer for LCD
+,Arduino UNO
+,9V 2A battery
+,switch for turning fan on/off manually
+,breadboard
+,jumper wires
+,DC fan
+.ill be giving the wiring diagram soon. Stay tuned
