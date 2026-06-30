@@ -11,3 +11,6 @@ components used for hardware:
 ps4 controller, potentiometer and 16x2 LCD, DC Fan and 9V2A battery, 1 manual switch to turn fan off manually, Arduino Uno, Jumper wires and breaboard for connections.
 
 ill be giving the wiring diagram soon. Stay tuned
+
+
+Also, the python script contains two parts: debug = true and debug = false. If you face any problems with the ps4 controller, use debug = true for troubleshooting, and set debug = false for the actual work
