@@ -4,16 +4,10 @@ password system that inputs password using a ps4 controller. Plays a sound if th
 
 The password so far is X S T C (X, Square, Triangle, Circle) buttons on the ps4 controller, also can be directly input from the serial monitor, in that case the python script is not necessary.
 L1 to enter the password, R1 to relock the fan.
+
 "error.wav" is the SYFM scene taken from the movie Bronson. All credits to them.
+
 components used for hardware:
-ps4 controller
-,16*2 LCD
-,potentiometer for LCD
-,Arduino UNO
-,9V 2A battery
-,switch for turning fan on/off manually
-,breadboard
-,jumper wires
-,DC fan.
+ps4 controller, potentiometer and 16x2 LCD, DC Fan and 9V2A battery, 1 manual switch to turn fan off manually, Arduino Uno, Jumper wires and breaboard for connections.
 
 ill be giving the wiring diagram soon. Stay tuned
